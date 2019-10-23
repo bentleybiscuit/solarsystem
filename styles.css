@@ -1,0 +1,43 @@
+.sun {
+    color: #deb27d;
+}
+
+
+@keyframes orbit {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.mer {
+    animation: orbit infinite linear 2.41s;
+    transform-origin: 750px 700px;
+}
+.ven {
+    animation: orbit infinite linear 6.15s;
+    transform-origin: 750px 700px;
+}
+.ear {
+    animation: orbit infinite linear 10s;
+    transform-origin: 750px 700px;
+}
+.mar {
+    animation: orbit infinite linear 18.8s;
+    transform-origin: 750px 700px;
+}
+.jup {
+    animation: orbit infinite linear 119s;
+    transform-origin: 750px 700px;
+}
+.sat {
+    animation: orbit infinite linear 295s;
+    transform-origin: 750px 700px;
+}
+.ura {
+    animation: orbit infinite linear 841s;
+    transform-origin: 750px 700px;
+}
+.nep {
+    animation: orbit infinite linear 1649s;
+    transform-origin: 750px 700px;
+}
